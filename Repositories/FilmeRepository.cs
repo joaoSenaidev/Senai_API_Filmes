@@ -108,16 +108,6 @@ namespace API_Filmes_senai.Repositories
             try
             {
                 List<Filme> listaDeFilmes = _context.Filme.Include(g => g.Genero)
-                    .Select(f => new Filme
-                    {
-                        IdFilme = f.IdFilme,
-                        Titulo = f.Titulo,
-
-                        Genero = new Genero
-                        {
-                            Nome = f.Genero!.Nome
-                        }
-                    })
                     
                     .ToList();
 

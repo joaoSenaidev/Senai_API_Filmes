@@ -1,0 +1,17 @@
+﻿namespace API_Filmes_senai.Untils
+{
+    public class Criptografia
+    {
+        public static string GerarHash(string senha)
+        {
+            return BCrypt.Net.BCrypt.HashPassword(senha);
+        }
+
+        public  static bool CompararHash(string senhaInformada, string senhaDoBanco)
+        {
+            return BCrypt.Net.BCrypt.Verify(senhaInformada, senhaDoBanco);
+        }
+
+
+    }
+}

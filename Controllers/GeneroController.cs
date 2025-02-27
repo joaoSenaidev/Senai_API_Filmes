@@ -1,5 +1,6 @@
 ﻿using API_Filmes_senai.Domains;
 using API_Filmes_senai.Interfaces;
+using API_Filmes_senai.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -60,7 +61,7 @@ namespace API_Filmes_senai.Controllers
 
         }
 
-        [HttpPut ("{id}")]
+        [HttpPut("{id}")]
 
         public IActionResult Put(Guid id, Genero genero)
         {
@@ -77,10 +78,28 @@ namespace API_Filmes_senai.Controllers
         }
 
 
+        [HttpDelete("{id}")]
+        public IActionResult Delete(Guid id)
+        {
+            try
+            {
+                _generoRepository.Deletar(id);
+
+                return NoContent();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
 
 
 
 
 
+
+
+
+        }
     }
 }
