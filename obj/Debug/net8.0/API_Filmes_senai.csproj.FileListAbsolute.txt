@@ -335,3 +335,12 @@ C:\Users\52529661847\Desktop\Senai_API_Filmes\obj\Debug\net8.0\API_Filmes_senai.
 C:\Users\52529661847\Desktop\Senai_API_Filmes\obj\Debug\net8.0\API_Filmes_senai.genruntimeconfig.cache
 C:\Users\52529661847\Desktop\Senai_API_Filmes\obj\Debug\net8.0\ref\API_Filmes_senai.dll
 C:\Users\52529661847\Desktop\Senai_API_Filmes\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\52529661847\Desktop\Senai_API_Filmes\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\52529661847\Desktop\Senai_API_Filmes\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\52529661847\Desktop\Senai_API_Filmes\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\52529661847\Desktop\Senai_API_Filmes\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\52529661847\Desktop\Senai_API_Filmes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\52529661847\Desktop\Senai_API_Filmes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\52529661847\Desktop\Senai_API_Filmes\obj\Debug\net8.0\API_Filmes_senai.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\52529661847\Desktop\Senai_API_Filmes\bin\Debug\net8.0\API_Filmes_senai.xml
+C:\Users\52529661847\Desktop\Senai_API_Filmes\obj\Debug\net8.0\API_Filmes_senai.xml

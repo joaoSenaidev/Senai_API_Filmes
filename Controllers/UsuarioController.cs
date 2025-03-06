@@ -1,6 +1,5 @@
 ﻿using API_Filmes_senai.Domains;
 using API_Filmes_senai.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_Filmes_senai.Controllers
@@ -25,8 +24,31 @@ namespace API_Filmes_senai.Controllers
                 _usuarioRepository.Cadastrar(usuario);
 
                 return StatusCode(201, usuario);
+
             }
-            catch (System.Exception e)
+            catch (Exception error)
+            {
+
+                return BadRequest(error.Message);
+            }
+        }
+
+        //Buscar por id
+        [HttpGet("{id}")]
+        public IActionResult GetById(Guid id)
+        {
+            try
+            {
+                Usuario usuarioBuscado = _usuarioRepository.BuscarPorId(id);
+
+                if (usuarioBuscado != null)
+                {
+
+                return Ok(usuarioBuscado);
+                }
+                return null!;
+            }
+            catch (Exception e)
             {
                 return BadRequest(e.Message);
             }

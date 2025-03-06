@@ -1,5 +1,4 @@
 ﻿using API_Filmes_senai.Domains;
-using API_Filmes_senai.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Filmes_senai.Context
