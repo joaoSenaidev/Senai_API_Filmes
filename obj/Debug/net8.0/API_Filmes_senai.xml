@@ -9,6 +9,61 @@
             Define que as classes se transformarão em tabelas no BD
             </summary>
         </member>
+        <member name="M:API_Filmes_senai.Controllers.FilmeController.Get">
+            <summary>
+            Lista Filmes
+            </summary>
+            <returns>Listar os Filmes</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.FilmeController.Post(API_Filmes_senai.Domains.Filme)">
+            <summary>
+            Cadastrar os Filmes
+            </summary>
+            <param name="novoFilme">Filme cadastrado</param>
+            <returns>Novo Filme</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.FilmeController.GetById(System.Guid)">
+            <summary>
+            Endpoint para Buscar filme por Id
+            </summary>
+            <param name="id">Id do Filme</param>
+            <returns>Filme Buscado</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.FilmeController.Put(System.Guid,API_Filmes_senai.Domains.Filme)">
+            <summary>
+            Atualizar Filmes
+            </summary>
+            <param name="id">Id do Filme</param>
+            <param name="filme">Titulo do Filme</param>
+            <returns>Filme Atualizado</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.FilmeController.Delete(System.Guid)">
+            <summary>
+            Deletar um Filme
+            </summary>
+            <param name="id">Id do Filme</param>
+            <returns>Linha vazia</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.FilmeController.GetByGenero(System.Guid)">
+            <summary>
+            Lista Filme pelo gênero
+            </summary>
+            <param name="id">Id do Filme</param>
+            <returns>Filme pelo seu gênero</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.GeneroController.Get">
+            <summary>
+            Listar Gêneros
+            </summary>
+            <returns> Lista de Gêneros</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.GeneroController.Post(API_Filmes_senai.Domains.Genero)">
+            <summary>
+            Cadastrar um Gênero
+            </summary>
+            <param name="novoGenero">Gênero cadatrado</param>
+            <returns>Novo Gênero</returns>
+        </member>
         <member name="M:API_Filmes_senai.Controllers.GeneroController.GetById(System.Guid)">
             <summary>
             Endpoint para buscar um Gênero pelo seu id
@@ -23,6 +78,34 @@
             <param name="id">Id do Genero Atualizado</param>
             <param name="genero">Nome do Gênero que irá substituir</param>
             <returns>Gênero Atualizado</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.GeneroController.Delete(System.Guid)">
+            <summary>
+            Deletar um Gênero
+            </summary>
+            <param name="id">Id do Gênero que ira ser Deletado</param>
+            <returns>Linha vazia</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.LoginController.Login(API_Filmes_senai.DTO.LoginDTO)">
+            <summary>
+            Login do Usuario
+            </summary>
+            <param name="loginDTO">Email e Senha do Usuario</param>
+            <returns>Usuario</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.UsuarioController.Post(API_Filmes_senai.Domains.Usuario)">
+            <summary>
+            Cadastrar o Usuario
+            </summary>
+            <param name="usuario">Usuario cadastrado</param>
+            <returns>Usuario</returns>
+        </member>
+        <member name="M:API_Filmes_senai.Controllers.UsuarioController.GetById(System.Guid)">
+            <summary>
+            Endpoint para buscar Usuario pelo seu Id
+            </summary>
+            <param name="id">Id do Usuario</param>
+            <returns>Usuario Buscado</returns>
         </member>
         <member name="P:API_Filmes_senai.Domains.Filme.IdGenero">
             <summary>

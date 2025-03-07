@@ -17,7 +17,10 @@ namespace API_Filmes_senai.Controllers
         {
             _generoRepository = generoRepository;
         }
-
+        /// <summary>
+        /// Listar Gêneros
+        /// </summary>
+        /// <returns> Lista de Gêneros</returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -31,7 +34,11 @@ namespace API_Filmes_senai.Controllers
             }
         }
 
-        
+        /// <summary>
+        /// Cadastrar um Gênero
+        /// </summary>
+        /// <param name="novoGenero">Gênero cadatrado</param>
+        /// <returns>Novo Gênero</returns>
         [HttpPost]
         public IActionResult Post(Genero novoGenero)
         {
@@ -90,7 +97,11 @@ namespace API_Filmes_senai.Controllers
             }
         }
 
-
+        /// <summary>
+        /// Deletar um Gênero
+        /// </summary>
+        /// <param name="id">Id do Gênero que ira ser Deletado</param>
+        /// <returns>Linha vazia</returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {

@@ -20,6 +20,7 @@
         "tags": [
           "Filme"
         ],
+        "summary": "Lista Filmes",
         "responses": {
           "200": {
             "description": "OK"
@@ -30,7 +31,9 @@
         "tags": [
           "Filme"
         ],
+        "summary": "Cadastrar os Filmes",
         "requestBody": {
+          "description": "Filme cadastrado",
           "content": {
             "application/json": {
               "schema": {
@@ -61,10 +64,12 @@
         "tags": [
           "Filme"
         ],
+        "summary": "Endpoint para Buscar filme por Id",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Id do Filme",
             "required": true,
             "schema": {
               "type": "string",
@@ -84,10 +89,12 @@
         "tags": [
           "Filme"
         ],
+        "summary": "Atualizar Filmes",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Id do Filme",
             "required": true,
             "schema": {
               "type": "string",
@@ -96,6 +103,7 @@
           }
         ],
         "requestBody": {
+          "description": "Titulo do Filme",
           "content": {
             "application/json": {
               "schema": {
@@ -124,10 +132,12 @@
         "tags": [
           "Filme"
         ],
+        "summary": "Deletar um Filme",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Id do Filme",
             "required": true,
             "schema": {
               "type": "string",
@@ -147,10 +157,12 @@
         "tags": [
           "Filme"
         ],
+        "summary": "Lista Filme pelo gênero",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Id do Filme",
             "required": true,
             "schema": {
               "type": "string",
@@ -170,6 +182,7 @@
         "tags": [
           "Genero"
         ],
+        "summary": "Listar Gêneros",
         "responses": {
           "200": {
             "description": "OK"
@@ -180,7 +193,9 @@
         "tags": [
           "Genero"
         ],
+        "summary": "Cadastrar um Gênero",
         "requestBody": {
+          "description": "Gênero cadatrado",
           "content": {
             "application/json": {
               "schema": {
@@ -279,10 +294,12 @@
         "tags": [
           "Genero"
         ],
+        "summary": "Deletar um Gênero",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Id do Gênero que ira ser Deletado",
             "required": true,
             "schema": {
               "type": "string",
@@ -302,7 +319,9 @@
         "tags": [
           "Login"
         ],
+        "summary": "Login do Usuario",
         "requestBody": {
+          "description": "Email e Senha do Usuario",
           "content": {
             "application/json": {
               "schema": {
@@ -333,7 +352,9 @@
         "tags": [
           "Usuario"
         ],
+        "summary": "Cadastrar o Usuario",
         "requestBody": {
+          "description": "Usuario cadastrado",
           "content": {
             "application/json": {
               "schema": {
@@ -364,10 +385,12 @@
         "tags": [
           "Usuario"
         ],
+        "summary": "Endpoint para buscar Usuario pelo seu Id",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Id do Usuario",
             "required": true,
             "schema": {
               "type": "string",
