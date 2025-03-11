@@ -39,7 +39,10 @@ namespace API_Filmes_senai.Controllers
         /// </summary>
         /// <param name="novoGenero">Gênero cadatrado</param>
         /// <returns>Novo Gênero</returns>
+<<<<<<< HEAD
         [Authorize]
+=======
+>>>>>>> d3b991b4a02dfc592749f0f43678005330e101b5
         [HttpPost]
         public IActionResult Post(Genero novoGenero)
         {
@@ -103,7 +106,10 @@ namespace API_Filmes_senai.Controllers
         /// </summary>
         /// <param name="id">Id do Gênero que ira ser Deletado</param>
         /// <returns>Linha vazia</returns>
+<<<<<<< HEAD
         [Authorize]
+=======
+>>>>>>> d3b991b4a02dfc592749f0f43678005330e101b5
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {

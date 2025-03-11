@@ -42,7 +42,10 @@ namespace API_Filmes_senai.Controllers
         /// </summary>
         /// <param name="novoFilme">Filme cadastrado</param>
         /// <returns>Novo Filme</returns>
+<<<<<<< HEAD
         [Authorize]
+=======
+>>>>>>> d3b991b4a02dfc592749f0f43678005330e101b5
         [HttpPost]
         public IActionResult Post(Filme novoFilme)
         {
@@ -84,7 +87,10 @@ namespace API_Filmes_senai.Controllers
         /// <param name="id">Id do Filme</param>
         /// <param name="filme">Titulo do Filme</param>
         /// <returns>Filme Atualizado</returns>
+<<<<<<< HEAD
         [Authorize]
+=======
+>>>>>>> d3b991b4a02dfc592749f0f43678005330e101b5
         [HttpPut("{id}")]
         public IActionResult Put(Guid id, Filme filme)
         {
@@ -105,7 +111,10 @@ namespace API_Filmes_senai.Controllers
         /// </summary>
         /// <param name="id">Id do Filme</param>
         /// <returns>Linha vazia</returns>
+<<<<<<< HEAD
         [Authorize]
+=======
+>>>>>>> d3b991b4a02dfc592749f0f43678005330e101b5
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {

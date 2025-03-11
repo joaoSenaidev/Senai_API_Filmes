@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\52529661847\\Desktop\\Senai_API_Filmes\\API_Filmes_senai.csproj": {}
+    "C:\\Users\\josva\\Desktop\\estudo\\Senai_API_Filmes\\API_Filmes_senai.csproj": {}
   },
   "projects": {
-    "C:\\Users\\52529661847\\Desktop\\Senai_API_Filmes\\API_Filmes_senai.csproj": {
+    "C:\\Users\\josva\\Desktop\\estudo\\Senai_API_Filmes\\API_Filmes_senai.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\52529661847\\Desktop\\Senai_API_Filmes\\API_Filmes_senai.csproj",
+        "projectUniqueName": "C:\\Users\\josva\\Desktop\\estudo\\Senai_API_Filmes\\API_Filmes_senai.csproj",
         "projectName": "API_Filmes_senai",
-        "projectPath": "C:\\Users\\52529661847\\Desktop\\Senai_API_Filmes\\API_Filmes_senai.csproj",
-        "packagesPath": "C:\\Users\\52529661847\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\52529661847\\Desktop\\Senai_API_Filmes\\obj\\",
+        "projectPath": "C:\\Users\\josva\\Desktop\\estudo\\Senai_API_Filmes\\API_Filmes_senai.csproj",
+        "packagesPath": "C:\\Users\\josva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josva\\Desktop\\estudo\\Senai_API_Filmes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\52529661847\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
