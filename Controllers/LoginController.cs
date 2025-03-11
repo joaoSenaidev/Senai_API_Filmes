@@ -18,7 +18,11 @@ namespace API_Filmes_senai.Controllers
         {
             _usuarioRepository = usuarioRepository;
         }
-
+        /// <summary>
+        /// Login do Usuario
+        /// </summary>
+        /// <param name="loginDTO">Email e Senha do Usuario</param>
+        /// <returns>Usuario</returns>
         [HttpPost]
         public IActionResult Login(LoginDTO loginDTO)
         {
